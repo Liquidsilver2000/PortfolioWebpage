@@ -36,7 +36,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "de-1",
         title: "Real-Time Event Streaming Platform",
         description: "Built a Kafka-based streaming pipeline processing 2M+ events/second with sub-100ms latency for real-time fraud detection.",
-        image: "/images/project-2.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-2.jpg",
         tools: ["Apache Kafka", "Spark Streaming", "PostgreSQL", "Redis", "Kubernetes"],
         metrics: [
           { label: "Events/Day", value: "50B+" },
@@ -50,7 +50,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "de-2",
         title: "Cloud-Native Data Warehouse",
         description: "Designed and implemented a petabyte-scale data warehouse on Azure Synapse with automated ETL pipelines.",
-        image: "/images/project-11.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-11.jpg",
         tools: ["Azure Synapse", "Databricks", "Delta Lake", "Azure Data Factory", "Power BI"],
         metrics: [
           { label: "Data Volume", value: "2.3 PB" },
@@ -64,7 +64,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "de-3",
         title: "Data Quality & Governance Framework",
         description: "Implemented automated data quality checks and lineage tracking across 500+ data sources.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["Great Expectations", "Apache Atlas", "dbt", "Snowflake", "Python"],
         metrics: [
           { label: "Data Sources", value: "500+" },
@@ -89,7 +89,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "da-1",
         title: "Enterprise Data Lakehouse",
         description: "Architected a unified lakehouse platform serving 10,000+ users across 50 business units.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["Delta Lake", "Azure Databricks", "Unity Catalog", "Azure AD", "Terraform"],
         metrics: [
           { label: "Active Users", value: "10K+" },
@@ -102,7 +102,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "da-2",
         title: "Data Governance Framework",
         description: "Built a comprehensive data governance platform with automated compliance checks and data lineage.",
-        image: "/images/project-11.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-11.jpg",
         tools: ["Collibra", "Apache Atlas", "Azure Purview", "Python", "REST APIs"],
         metrics: [
           { label: "Governed Assets", value: "25K+" },
@@ -115,7 +115,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "da-3",
         title: "Multi-Cloud Data Strategy",
         description: "Designed a hybrid cloud data strategy across Azure, AWS, and GCP with unified data fabric.",
-        image: "/images/project-6.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-6.jpg",
         tools: ["Azure", "AWS", "GCP", "Databricks", "Apache Iceberg"],
         metrics: [
           { label: "Cloud Providers", value: "3" },
@@ -140,7 +140,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ga-1",
         title: "Enterprise RAG Knowledge Base",
         description: "Built a RAG-powered internal knowledge base processing 1M+ documents with 95% accuracy.",
-        image: "/images/project-3.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-3.jpg",
         tools: ["OpenAI GPT-4", "LangChain", "Pinecone", "FastAPI", "React"],
         metrics: [
           { label: "Documents", value: "1M+" },
@@ -153,7 +153,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ga-2",
         title: "AI Agent Orchestration Platform",
         description: "Developed a multi-agent system for automated customer support with tool-calling capabilities.",
-        image: "/images/project-8.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-8.jpg",
         tools: ["LangGraph", "CrewAI", "OpenAI", "Python", "Redis"],
         metrics: [
           { label: "Agents", value: "12" },
@@ -166,7 +166,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ga-3",
         title: "Code Generation Assistant",
         description: "Fine-tuned CodeLlama for internal codebase with 40% developer productivity improvement.",
-        image: "/images/project-1.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-1.jpg",
         tools: ["CodeLlama", "LoRA", "Hugging Face", "vLLM", "Docker"],
         metrics: [
           { label: "Code Acceptance", value: "78%" },
@@ -191,7 +191,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "dl-1",
         title: "Medical Image Diagnosis CNN",
         description: "Trained a ResNet-based model for X-ray anomaly detection achieving 97.3% accuracy.",
-        image: "/images/project-4.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-4.jpg",
         tools: ["PyTorch", "MONAI", "W&B", "Docker", "AWS"],
         metrics: [
           { label: "Accuracy", value: "97.3%" },
@@ -204,7 +204,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "dl-2",
         title: "Transformer-based NLP Pipeline",
         description: "Built a BERT-based pipeline for entity extraction and sentiment analysis on 10M+ documents.",
-        image: "/images/project-8.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-8.jpg",
         tools: ["Hugging Face", "PyTorch", "spaCy", "FastAPI", "Kubernetes"],
         metrics: [
           { label: "F1 Score", value: "0.94" },
@@ -217,7 +217,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "dl-3",
         title: "Multi-Modal Content Understanding",
         description: "Developed a CLIP-based system for understanding image-text relationships in e-commerce.",
-        image: "/images/project-4.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-4.jpg",
         tools: ["CLIP", "PyTorch", "FAISS", "FastAPI", "React"],
         metrics: [
           { label: "Retrieval@10", value: "92%" },
@@ -242,7 +242,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ml-1",
         title: "Customer Churn Prediction",
         description: "Built an XGBoost model predicting customer churn with 94% precision, saving $5M annually.",
-        image: "/images/project-9.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-9.jpg",
         tools: ["XGBoost", "Python", "MLflow", "Airflow", "PostgreSQL"],
         metrics: [
           { label: "Precision", value: "94%" },
@@ -255,7 +255,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ml-2",
         title: "Dynamic Pricing Engine",
         description: "Developed a real-time pricing optimization system using reinforcement learning.",
-        image: "/images/project-10.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-10.jpg",
         tools: ["RLlib", "Python", "Redis", "FastAPI", "Docker"],
         metrics: [
           { label: "Revenue Lift", value: "12%" },
@@ -268,7 +268,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "ml-3",
         title: "Anomaly Detection System",
         description: "Built an unsupervised anomaly detection system for IoT sensor data using isolation forests.",
-        image: "/images/project-1.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-1.jpg",
         tools: ["scikit-learn", "Python", "Kafka", "InfluxDB", "Grafana"],
         metrics: [
           { label: "Sensors", value: "100K+" },
@@ -293,7 +293,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "py-1",
         title: "High-Performance Data Processing Library",
         description: "Built a Cython-accelerated data processing library achieving 50x speedup over pandas.",
-        image: "/images/project-2.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-2.jpg",
         tools: ["Cython", "NumPy", "PyArrow", "pytest", "GitHub Actions"],
         metrics: [
           { label: "Speedup", value: "50x" },
@@ -306,7 +306,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "py-2",
         title: "Microservices API Platform",
         description: "Architected a FastAPI-based microservices platform serving 1M+ requests/day.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["FastAPI", "Redis", "PostgreSQL", "Docker", "Kubernetes"],
         metrics: [
           { label: "Requests/Day", value: "1M+" },
@@ -319,7 +319,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "py-3",
         title: "Test Automation Framework",
         description: "Created a comprehensive testing framework for data pipelines with 500+ test cases.",
-        image: "/images/project-12.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-12.jpg",
         tools: ["pytest", "Great Expectations", "Docker", "CI/CD", "Allure"],
         metrics: [
           { label: "Test Cases", value: "500+" },
@@ -344,7 +344,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "st-1",
         title: "Large-Scale A/B Testing Platform",
         description: "Designed and analyzed 200+ experiments driving $20M+ in incremental revenue.",
-        image: "/images/project-7.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-7.jpg",
         tools: ["R", "Python", "Stan", "Snowflake", "Tableau"],
         metrics: [
           { label: "Experiments", value: "200+" },
@@ -357,7 +357,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "st-2",
         title: "Bayesian Demand Forecasting",
         description: "Built a Bayesian hierarchical model for demand forecasting with 15% MAPE improvement.",
-        image: "/images/project-10.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-10.jpg",
         tools: ["PyMC", "Python", "ArviZ", "Pandas", "Plotly"],
         metrics: [
           { label: "MAPE", value: "8.5%" },
@@ -370,7 +370,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "st-3",
         title: "Causal Impact Analysis",
         description: "Implemented causal inference models to measure marketing campaign effectiveness.",
-        image: "/images/project-9.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-9.jpg",
         tools: ["CausalPy", "Python", "scikit-learn", "BigQuery", "Looker"],
         metrics: [
           { label: "Campaigns", value: "50+" },
@@ -395,7 +395,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sq-1",
         title: "Query Optimization Initiative",
         description: "Optimized 500+ queries reducing average execution time from 45s to <200ms.",
-        image: "/images/project-11.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-11.jpg",
         tools: ["PostgreSQL", "SQL Server", "EXPLAIN", "pgBadger", "Python"],
         metrics: [
           { label: "Queries", value: "500+" },
@@ -409,7 +409,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sq-2",
         title: "Real-Time Analytics Views",
         description: "Designed materialized views and streaming aggregations for real-time dashboards.",
-        image: "/images/project-7.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-7.jpg",
         tools: ["PostgreSQL", "TimescaleDB", "Redis", "Grafana", "dbt"],
         metrics: [
           { label: "Dashboards", value: "25+" },
@@ -422,7 +422,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sq-3",
         title: "Cross-Database Migration",
         description: "Led migration of 50TB data warehouse from Oracle to Snowflake with zero downtime.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["Snowflake", "Oracle", "Python", "Airflow", "Great Expectations"],
         metrics: [
           { label: "Data Volume", value: "50TB" },
@@ -447,7 +447,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "az-1",
         title: "Azure ML Platform",
         description: "Built an enterprise MLOps platform on Azure serving 50+ models in production.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["Azure ML", "AKS", "Azure DevOps", "Terraform", "Prometheus"],
         metrics: [
           { label: "Models", value: "50+" },
@@ -460,7 +460,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "az-2",
         title: "Data Factory Orchestration",
         description: "Designed 200+ ADF pipelines processing 10TB+ daily across 100+ data sources.",
-        image: "/images/project-2.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-2.jpg",
         tools: ["Azure Data Factory", "Databricks", "Azure SQL", "Logic Apps", "PowerShell"],
         metrics: [
           { label: "Pipelines", value: "200+" },
@@ -473,7 +473,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "az-3",
         title: "Infrastructure as Code",
         description: "Automated Azure infrastructure provisioning with Terraform and Azure DevOps.",
-        image: "/images/project-12.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-12.jpg",
         tools: ["Terraform", "Azure DevOps", "Azure Policy", "Packer", "Ansible"],
         metrics: [
           { label: "Resources", value: "1000+" },
@@ -498,7 +498,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "pb-1",
         title: "Executive KPI Dashboard",
         description: "Built a real-time executive dashboard tracking 50+ KPIs across all business units.",
-        image: "/images/project-7.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-7.jpg",
         tools: ["Power BI", "DAX", "Azure Synapse", "Azure AD", "REST API"],
         metrics: [
           { label: "KPIs", value: "50+" },
@@ -511,7 +511,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "pb-2",
         title: "Financial Planning Platform",
         description: "Created an interactive financial planning and forecasting dashboard with what-if analysis.",
-        image: "/images/project-10.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-10.jpg",
         tools: ["Power BI", "DAX", "Azure Analysis", "Excel", "REST API"],
         metrics: [
           { label: "Scenarios", value: "10+" },
@@ -524,7 +524,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "pb-3",
         title: "Operational Analytics Hub",
         description: "Developed a comprehensive operations analytics platform with predictive alerts.",
-        image: "/images/project-6.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-6.jpg",
         tools: ["Power BI", "Azure Stream", "SQL", "Python", "Azure Functions"],
         metrics: [
           { label: "Metrics", value: "200+" },
@@ -549,7 +549,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "etl-1",
         title: "Real-Time CDC Pipeline",
         description: "Built a Change Data Capture system replicating 1000+ tables with <1s latency.",
-        image: "/images/project-2.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-2.jpg",
         tools: ["Debezium", "Kafka", "Spark", "Delta Lake", "Grafana"],
         metrics: [
           { label: "Tables", value: "1000+" },
@@ -562,7 +562,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "etl-2",
         title: "dbt Transformation Framework",
         description: "Implemented a dbt-based transformation layer with 500+ models and automated testing.",
-        image: "/images/project-11.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-11.jpg",
         tools: ["dbt", "Snowflake", "Great Expectations", "CI/CD", "Docs"],
         metrics: [
           { label: "Models", value: "500+" },
@@ -575,7 +575,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "etl-3",
         title: "Data Quality Automation",
         description: "Created an automated data quality framework catching 99.5% of anomalies before production.",
-        image: "/images/project-12.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-12.jpg",
         tools: ["Great Expectations", "Airflow", "Python", "Slack", "JIRA"],
         metrics: [
           { label: "Anomalies Caught", value: "99.5%" },
@@ -600,7 +600,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "wd-1",
         title: "Real-Time ML Dashboard",
         description: "Built a real-time ML monitoring dashboard with WebSocket streaming and interactive visualizations.",
-        image: "/images/project-7.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-7.jpg",
         tools: ["React", "D3.js", "WebSocket", "FastAPI", "Redis"],
         metrics: [
           { label: "Users", value: "500+" },
@@ -613,7 +613,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "wd-2",
         title: "AI-Powered Documentation",
         description: "Developed an AI-powered documentation platform with auto-generated explanations.",
-        image: "/images/project-3.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-3.jpg",
         tools: ["Next.js", "OpenAI", "MDX", "Prisma", "Vercel"],
         metrics: [
           { label: "Docs", value: "10K+" },
@@ -626,7 +626,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "wd-3",
         title: "Data API Gateway",
         description: "Created a unified API gateway for data services with rate limiting and caching.",
-        image: "/images/project-5.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-5.jpg",
         tools: ["Node.js", "Express", "Redis", "PostgreSQL", "Docker"],
         metrics: [
           { label: "Requests/Day", value: "10M+" },
@@ -651,7 +651,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sc-1",
         title: "Agile Data Platform Delivery",
         description: "Led a cross-functional team of 12 delivering a data platform in 6-month timeline using Scrum.",
-        image: "/images/project-12.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-12.jpg",
         tools: ["JIRA", "Azure DevOps", "Confluence", "Slack", "Miro"],
         metrics: [
           { label: "Team Size", value: "12" },
@@ -664,7 +664,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sc-2",
         title: "CI/CD Pipeline Automation",
         description: "Implemented full CI/CD automation reducing deployment time from 2 days to 30 minutes.",
-        image: "/images/project-12.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-12.jpg",
         tools: ["Azure DevOps", "GitHub Actions", "Docker", "Kubernetes", "Terraform"],
         metrics: [
           { label: "Deploy Time", value: "30min" },
@@ -677,7 +677,7 @@ export const expertiseAreas: ExpertiseArea[] = [
         id: "sc-3",
         title: "Data Product Incubator",
         description: "Established a data product incubator delivering 15 MVPs in 12 months using agile methodology.",
-        image: "/images/project-7.jpg",
+        image: "${import.meta.env.BASE_URL}images/project-7.jpg",
         tools: ["Scrum", "Design Thinking", "Figma", "Python", "Azure"],
         metrics: [
           { label: "MVPs", value: "15" },
