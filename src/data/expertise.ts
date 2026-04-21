@@ -82,15 +82,15 @@ export const expertiseAreas: ExpertiseArea[] = [
     icon: "Layers",
     color: "#7000FF",
     accentColor: "#00F0FF",
-    description: "Designing enterprise data architectures, lakehouse platforms, and governance frameworks for Fortune 500 companies.",
+    description: "Designing enterprise data architectures, lakehouse platforms, and governance frameworks.",
     skills: ["Data Lakehouse", "Enterprise Architecture", "Data Governance", "Schema Design", "Cost Optimization", "Security"],
     projects: [
       {
         id: "da-1",
         title: "Enterprise Data Lakehouse",
-        description: "Architected a unified lakehouse platform serving 10,000+ users across 50 business units.",
+        description: "Architected a test unified lakehouse platform serving 10 users across 1 business unit.",
         image: `${import.meta.env.BASE_URL}images/project-5.jpg`,
-        tools: ["Delta Lake", "Azure Databricks", "Unity Catalog", "Azure AD", "Terraform"],
+        tools: ["Delta Lake", "Azure Databricks", "Azure AD"],
         metrics: [
           { label: "Active Users", value: "10K+" },
           { label: "Business Units", value: "50" },
@@ -101,9 +101,9 @@ export const expertiseAreas: ExpertiseArea[] = [
       {
         id: "da-2",
         title: "Data Governance Framework",
-        description: "Built a comprehensive data governance platform with automated compliance checks and data lineage.",
+        description: "Built a test comprehensive data governance platform with automated compliance checks and data lineage.",
         image: `${import.meta.env.BASE_URL}images/project-11.jpg`,
-        tools: ["Collibra", "Apache Atlas", "Azure Purview", "Python", "REST APIs"],
+        tools: ["Azure Purview", "Python", "REST APIs"],
         metrics: [
           { label: "Governed Assets", value: "25K+" },
           { label: "Compliance", value: "SOC2/ISO" },
